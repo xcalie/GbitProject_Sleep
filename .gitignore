@@ -3,6 +3,25 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# ******
+
+# this git only track the source code, not the build files
+# so we ignore the build files
+
+# Ignore all files
+*
+
+# Except the Assets/Scripts folder
+!Assets/
+Assets/*
+!Assets/Scripts/
+!Assets/Scripts/**
+!*.cs
+
+
+# ******
+
+
 # User-specific files
 *.rsuser
 *.suo

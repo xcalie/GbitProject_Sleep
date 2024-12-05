@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63f6fd490342e1408e51b62f17e418b, type: 3}
+  m_Name: NewAnimationData
+  m_EditorClassIdentifier: 
+  clips:
+  - stateName: Idle
+    sprites:
+    - {fileID: 21300000, guid: 65250c8120b92bd4aa3b532ed3affa98, type: 3}
+    frameRate: 1
+    isLoop: 0
+    useUnscaledTime: 1
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Run
+    sprites:
+    - {fileID: 21300000, guid: fc71db0bf91a50847a25208f047a7a90, type: 3}
+    - {fileID: 21300000, guid: 86f6890492c0556498ecf07578008b10, type: 3}
+    - {fileID: 21300000, guid: ec87d87462f4e9443a408546d8fcb931, type: 3}
+    - {fileID: 21300000, guid: a18725380109821468d81b94926792a7, type: 3}
+    frameRate: 15
+    isLoop: 1
+    useUnscaledTime: 1
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Jump
+    sprites:
+    - {fileID: 21300000, guid: ba59abc1fb60e1f4fbf2718e13874c86, type: 3}
+    - {fileID: 21300000, guid: c0b00999d786dbe4abd2576c3f5e77df, type: 3}
+    frameRate: 0
+    isLoop: 0
+    useUnscaledTime: 1
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Fall
+    sprites:
+    - {fileID: 21300000, guid: c0b00999d786dbe4abd2576c3f5e77df, type: 3}
+    - {fileID: 21300000, guid: ba59abc1fb60e1f4fbf2718e13874c86, type: 3}
+    frameRate: 0
+    isLoop: 0
+    useUnscaledTime: 1
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95415f97c5dcfcf4eb55ed11bf96a0d2, type: 3}
+  m_Name: Nighmare
+  m_EditorClassIdentifier: 
+  clips:
+  - stateName: Patrol
+    sprites:
+    - {fileID: 6465779224697830217, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -355621187989111012, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -2148927544765941950, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 8823488189837825423, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 2290243775232420291, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 2820319222583844291, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 5283717279220278921, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 2855668161961582254, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 1749859359110701917, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -154011988707494223, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -8937471318371639662, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -4919725775127418385, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 8655137897768030157, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 7017512476069678444, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -5036828043813568473, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 104585868738014273, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -7240016582826678363, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -9051591115033384873, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -4570767971504796724, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 8333044055905957602, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: -5407373501248041462, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    - {fileID: 5467191328839134964, guid: 64fc80fe1d6f7e64197673531d7c2955, type: 3}
+    frameRate: 30
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Attack
+    sprites:
+    - {fileID: -2304150316906599466, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -3108582038836652466, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -2683131332096771413, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -5724653622522829096, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -6391103109940942000, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 2509151614780768534, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 8799246697811874687, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -4688749979685906850, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 6212439544370956607, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 1227180747547515004, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 6241878007944350070, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 5292522391481360973, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -151325736494194021, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 7542084262049981358, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 7760785029709882412, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -824082468650349645, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: 6046650500945239986, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -1857219032396511443, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -5649677919582848617, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -5221267050206051230, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    - {fileID: -3924644345192472888, guid: 730bef010e9ed554ea1466cd286d535f, type: 3}
+    frameRate: 21
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}

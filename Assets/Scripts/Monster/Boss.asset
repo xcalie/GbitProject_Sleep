@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95415f97c5dcfcf4eb55ed11bf96a0d2, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: 
+  clips:
+  - stateName: Attack
+    sprites:
+    - {fileID: 21300000, guid: aa09af5d67b17f9429c4424444cb28d5, type: 3}
+    - {fileID: 21300000, guid: 2f96491b81885864697d25bfd6d1270f, type: 3}
+    - {fileID: 21300000, guid: 6ef469781add80648b8dfbc0ceb2372a, type: 3}
+    - {fileID: 21300000, guid: 662d015decd42474eb897edd5d0462db, type: 3}
+    - {fileID: 21300000, guid: 79b346b3884090f4a8f1def1279800b5, type: 3}
+    - {fileID: 21300000, guid: 4990c881a958ac0439e0779dd212a594, type: 3}
+    - {fileID: 21300000, guid: 263f5b48bd593f245a5f29da1e231fed, type: 3}
+    - {fileID: 21300000, guid: 21c6cd11604ecf64090d46316f69bb9e, type: 3}
+    - {fileID: 21300000, guid: 2319f3f32d238eb4881339b141f913a1, type: 3}
+    - {fileID: 21300000, guid: ecd51a3994d62da4f9f91240cf3b89b6, type: 3}
+    - {fileID: 21300000, guid: bbae17964a4932e4e95c353ccc8f4e0f, type: 3}
+    - {fileID: 21300000, guid: 7d5e511a820abb44cac4761996c1169e, type: 3}
+    - {fileID: 21300000, guid: ef5f1ae4e1117c442b09338c0d0e1f02, type: 3}
+    frameRate: 30
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Death
+    sprites:
+    - {fileID: 21300000, guid: 32705c2c141db454a9c27949c5bb7653, type: 3}
+    - {fileID: 21300000, guid: 30c8723680c479545a5e957eb35ac18b, type: 3}
+    - {fileID: 21300000, guid: 3468e235019c7254fa60184d982bad1c, type: 3}
+    - {fileID: 21300000, guid: e7dabec0a4af60a4e9b0fcd8c92e39c6, type: 3}
+    - {fileID: 21300000, guid: 13e798d5d151f944888c75073251e4b5, type: 3}
+    - {fileID: 21300000, guid: f92bbc150d77cc24dad504fb28698317, type: 3}
+    - {fileID: 21300000, guid: a01d2548d5956684d99f43a384cee7ae, type: 3}
+    - {fileID: 21300000, guid: be9bc5bf89f4ebb4696bf8b0cd3aac27, type: 3}
+    - {fileID: 21300000, guid: 2437c8a62c8191f46941afa2e9b88b1e, type: 3}
+    - {fileID: 21300000, guid: f8f08add75e1c694f955b802bf819fcc, type: 3}
+    - {fileID: 21300000, guid: cbbd0184f2c0ae74c82b463a57c72b9e, type: 3}
+    - {fileID: 21300000, guid: 5b347bbc07f6bdd46913bfc03e69bfce, type: 3}
+    - {fileID: 21300000, guid: 388dd6bd7069d1e4fa3197272cde8ecd, type: 3}
+    - {fileID: 21300000, guid: d65e5ba03837b354daec58f74303f9ea, type: 3}
+    - {fileID: 21300000, guid: 089d601b1b7167d47a065331ff183140, type: 3}
+    frameRate: 30
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Hurt
+    sprites:
+    - {fileID: 21300000, guid: 36d5e65b732dc1947964988bffc0a84c, type: 3}
+    - {fileID: 21300000, guid: b46eac5861e4cd64d92cad0c0ea93d97, type: 3}
+    - {fileID: 21300000, guid: 82531c1b5d233774d964abb4e3cc89a9, type: 3}
+    - {fileID: 21300000, guid: 9b7611b934f7f594b95dd65a96fa85e7, type: 3}
+    frameRate: 30
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Idle
+    sprites:
+    - {fileID: 21300000, guid: f3a00435666926645a2b5a5dc1e47fd1, type: 3}
+    - {fileID: 21300000, guid: 4720ce24428a965458fa15fa7a79c13c, type: 3}
+    - {fileID: 21300000, guid: 824bf1b1797a00b4e9d6a3345ecf325e, type: 3}
+    - {fileID: 21300000, guid: 935a3a934ab022a48ab4be05a0f52a30, type: 3}
+    - {fileID: 21300000, guid: b175bdd6f55455f4e8402d5f5c10971a, type: 3}
+    - {fileID: 21300000, guid: b0c99287307d7de4d9a24456a16bcf45, type: 3}
+    - {fileID: 21300000, guid: 5af4ad6bc423ca04786aa1f5dab67c4d, type: 3}
+    - {fileID: 21300000, guid: 30e52a6205af9bb4c988fa642ba940e4, type: 3}
+    - {fileID: 21300000, guid: e1dbfdf27c739bb4cbbad0ea64121a0d, type: 3}
+    - {fileID: 21300000, guid: 997e1fa85fef81c4bbdf250801b64413, type: 3}
+    - {fileID: 21300000, guid: 267a4149e3cb9134dbe2f026970a3bcb, type: 3}
+    - {fileID: 21300000, guid: 1bb4064b2ce1563458e9a2e4046f292d, type: 3}
+    - {fileID: 21300000, guid: 5b0ef2eafb3f2e84abfe0f5b2e31e046, type: 3}
+    - {fileID: 21300000, guid: 2f91cc0afee75944aa8f7b19eed36f73, type: 3}
+    - {fileID: 21300000, guid: 0d6f8b65e07c83d49b030928aa2973f7, type: 3}
+    - {fileID: 21300000, guid: 31b352e4405c97e41abf854a06f0648b, type: 3}
+    - {fileID: 21300000, guid: 7f291c6039eb8164f9c116af99b01405, type: 3}
+    - {fileID: 21300000, guid: f41ceaf231599eb499416a36a8109f5b, type: 3}
+    - {fileID: 21300000, guid: 57f1ed6be809ebc47899285af848c195, type: 3}
+    - {fileID: 21300000, guid: c517d199afb90a547ba6f3120caf88bc, type: 3}
+    frameRate: 30
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
+  - stateName: Move
+    sprites:
+    - {fileID: 21300000, guid: d9ac04be7883c15458a99bd96099aa7f, type: 3}
+    - {fileID: 21300000, guid: c08a83fbf82c5834e833d0732f0d6939, type: 3}
+    - {fileID: 21300000, guid: 5dc509eeb95997b4881e452f61443027, type: 3}
+    - {fileID: 21300000, guid: f69954cce66f34345af39ccabf5a3f84, type: 3}
+    - {fileID: 21300000, guid: 3020b05efcd508d46b3edeb00bf91c0e, type: 3}
+    - {fileID: 21300000, guid: 0a8b67799f6262048a1aeae93aa57b75, type: 3}
+    - {fileID: 21300000, guid: 3555591e9455d894f9a69db4d4cbcc82, type: 3}
+    - {fileID: 21300000, guid: b6aea74fd6674684889ec53de0514fd3, type: 3}
+    - {fileID: 21300000, guid: 15260b313542b3344bfa6965c45e8c06, type: 3}
+    - {fileID: 21300000, guid: da66c1be1e96f4d42912f2bc7cfd88ac, type: 3}
+    - {fileID: 21300000, guid: d10a14212ce682f4c853895587557fa2, type: 3}
+    - {fileID: 21300000, guid: e3bb42019dfc9944cbe0fbde3a490efb, type: 3}
+    - {fileID: 21300000, guid: 6e6ec6bdd1d91dc4082cd19ce05560a2, type: 3}
+    frameRate: 30
+    isLoop: 1
+    useUnscaledTime: 0
+    soundEffect: {fileID: 0}
+    volume: 0
+    effectPrefab: {fileID: 0}
+    effectOffset: {x: 0, y: 0}
